@@ -361,3 +361,35 @@ body{
         margin: 20px 0;
     }
 }
+
+@media screen and (max-width: 420px){
+    .greetings h1{
+        font-size: 45px;
+        line-height: 40px;
+        margin: 20px 0;
+    }
+    .position{
+        font-size: 32px;
+    }
+    .greetings button{
+        padding: 15px 28px;
+        color: var(--bg-content-color1);
+    }
+    .aboutContainer2 img{
+        height: 250px;
+        width: 200px;
+        border-radius: 20px;
+        margin-left: 3rem;
+    }
+    .containerProjects img{
+        width: 250px;
+        height: 220px;
+        transition: transform .5s;
+        opacity: .7;
+    }
+    .containerProjects p{
+        font-size: 15px;
+        line-height: 23px;
+        text-align: justify;
+    }
+}
